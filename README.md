@@ -44,3 +44,7 @@ module.exports = {
   // ...
 };
 ```
+
+## inspired
+
+[colar](https://github.com/fchristant/colar)
