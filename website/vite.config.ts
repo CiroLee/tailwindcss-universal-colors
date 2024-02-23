@@ -5,6 +5,7 @@ import tailwindcss from 'tailwindcss';
 import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'tailwindcss-universal-colors/',
   plugins: [react()],
   resolve: {
     alias: {
