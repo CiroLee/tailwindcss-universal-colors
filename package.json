@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-universal-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "universal color palette for tailwindcss",
   "main": "index.js",
   "keywords": [
@@ -9,6 +9,9 @@
     "palette",
     "universal",
     "tailwindcss-plugin"
+  ],
+  "files": [
+    "index.js"
   ],
   "author": "CiroLee<ciromail@126.com>",
   "license": "MIT",

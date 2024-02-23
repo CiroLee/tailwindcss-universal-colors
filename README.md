@@ -10,11 +10,11 @@ universal color palette for tailwindcss
 
 ```bash
 # npm
-npm install tailwindcss-universal-colors
+npm install tailwindcss-universal-colors -D
 # yarn
-yarn add tailwindcss-universal-colors
+yarn add tailwindcss-universal-colors -D
 # pnpm
-pnpm add tailwindcss-universal-colors
+pnpm add tailwindcss-universal-colors -D
 
 ```
 
