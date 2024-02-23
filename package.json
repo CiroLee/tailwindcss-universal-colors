@@ -1,0 +1,25 @@
+{
+  "name": "tailwindcss-universal-colors",
+  "version": "1.0.0",
+  "description": "universal color palette for tailwindcss",
+  "main": "index.js",
+  "keywords": [
+    "tailwindcss",
+    "colors",
+    "palette",
+    "universal",
+    "tailwindcss-plugin"
+  ],
+  "author": "CiroLee<ciromail@126.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/CiroLee/tailwindcss-universal-colors",
+  "bugs": {
+    "url": "https://github.com/CiroLee/tailwindcss-universal-colors/issues"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
