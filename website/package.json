@@ -6,8 +6,7 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --config .eslintrc",
-    "prepare": "husky install"
+    "lint": "eslint --config .eslintrc"
   },
   "lint-staged": {
     "src/**/*.{jsx,tsx,ts,js,json}": [
@@ -35,7 +34,6 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.33.2",
-    "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "postcss": "^8.4.33",
     "prettier": "^3.2.4",
