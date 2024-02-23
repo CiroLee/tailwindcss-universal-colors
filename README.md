@@ -4,7 +4,7 @@ universal color palette for tailwindcss
 
 ![image](./assets/cover.png)
 
-[preview here](https://cirolee.github.io/tailwindcss-universial-colors/)
+[preview here](https://cirolee.github.io/tailwindcss-universal-colors/)
 
 ## install
 
