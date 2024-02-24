@@ -37,8 +37,10 @@ export default {
 const universalColors = require('tailwindcss-universal-colors');
 module.exports = {
   theme: {
-    colors: {
-      ...universalColors,
+    extend: {
+      colors: {
+        ...universalColors,
+      },
     },
   },
   // ...
