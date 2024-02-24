@@ -26,8 +26,10 @@ import universalColors from 'tailwindcss-universal-colors';
 
 export default {
   theme: {
-    colors: {
-      ...universalColors,
+    extend: {
+      colors: {
+        ...universalColors,
+      },
     },
   },
   // ...
