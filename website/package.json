@@ -20,7 +20,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3",
-    "tailwind-variants": "^0.2.0"
+    "tailwind-variants": "^0.2.0",
+    "utils-gear": "^1.2.4"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^18.5.0",

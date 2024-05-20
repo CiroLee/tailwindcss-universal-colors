@@ -24,8 +24,5 @@
   },
   "devDependencies": {
     "prettier": "^3.2.5"
-  },
-  "dependencies": {
-    "utils-gear": "^1.2.4"
   }
 }
