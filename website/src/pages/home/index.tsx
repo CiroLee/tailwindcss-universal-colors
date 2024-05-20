@@ -2,6 +2,7 @@ import { FC } from 'react';
 import colorsJson from '../../config/colors.json';
 import { ToastProvider, useToast } from '@/components/Toast';
 import { Check, Github } from 'lucide-react';
+import { isDarkColor } from 'utils-gear';
 interface ColorSchema {
   color: string;
   name: string;
@@ -34,9 +35,14 @@ const Home: FC = () => {
         {colorsPalette.map((item) => (
           <div className="cursor-pointer" key={item.name}>
             <div
-              className="h-[64px] transition-all hover:scale-110"
+              className="h-[64px] flex items-center justify-center transition-all group hover:scale-110"
               style={{ backgroundColor: item.color }}
-              onClick={() => copyToClipboard(item.color)}></div>
+              onClick={() => copyToClipboard(item.color)}>
+              <p
+                className={`text-center text-sm opacity-0 group-hover:opacity-100 transition-opacity ${isDarkColor(item.color) ? 'text-neutral-100' : 'text-neutral-800'}`}>
+                {item.color}
+              </p>
+            </div>
             <div
               className="relative hover:bg-gray-4/20 transition-colors flex justify-center items-center"
               onClick={() => copyToClipboard(item.name.toLocaleLowerCase())}>
