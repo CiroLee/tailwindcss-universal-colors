@@ -270,6 +270,13 @@ const colorPalette = {
     12: '#3D4D04',
   },
 };
-
-module.exports = colorPalette;
+export function getColors(color) {
+  const [colorName, shade] = color.split('.');
+  if (colorPalette[colorName] && colorPalette[colorName][shade]) {
+    return colorPalette[colorName][shade];
+  } else {
+    console.warn(`Color or shade not found: ${color}`);
+    return null;
+  }
+}
 export default colorPalette;

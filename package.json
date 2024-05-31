@@ -1,8 +1,9 @@
 {
   "name": "tailwindcss-universal-colors",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "universal color palette for tailwindcss",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "tailwindcss",
     "colors",
