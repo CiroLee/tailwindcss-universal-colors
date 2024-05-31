@@ -8,7 +8,7 @@ universal color palette for tailwindcss
 
 ![image](./assets/cover.png)
 
-[preview here](https://cirolee.github.io/tailwindcss-universal-colors/)
+[preview](https://cirolee.github.io/tailwindcss-universal-colors/)
 
 ## install
 
@@ -24,8 +24,10 @@ pnpm add tailwindcss-universal-colors -D
 
 ## usage
 
+### use as extended colors
+
 ```ts
-// tailwind.config.js
+// tailwind.config.mjs
 import universalColors from 'tailwindcss-universal-colors';
 
 export default {
@@ -38,19 +40,14 @@ export default {
   },
   // ...
 };
+```
 
-// or commonjs for tailwind.config.cjs
-const universalColors = require('tailwindcss-universal-colors');
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        ...universalColors,
-      },
-    },
-  },
-  // ...
-};
+### `getColors` helps get color value
+
+```ts
+import { getColors } from 'tailwindcss-universal-colors';
+
+getColors('gray.0'); // #F8FAFB
 ```
 
 ## inspired
