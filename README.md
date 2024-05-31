@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://ciro.club/statics/images/icons/1717125146_50DWShhARrBQNOawbnv92.svg" width="256" height="256" alt="logo">
+</div>
+
 # tailwindcss-universal-colors
 
 universal color palette for tailwindcss
